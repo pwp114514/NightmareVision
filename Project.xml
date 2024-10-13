@@ -71,7 +71,6 @@
 	<library name="shared"        preload="true" />
 	
 	<assets path="assets/videos"        library="videos" if="VIDEOS_ALLOWED"/>
-	<assets path="assets/songs"         library="songs" unless="HIT_SINGLE"/>
 	<assets path="assets/shared"        library="shared"/>
 
 	<assets path='content' embed='false' if="MODS_ALLOWED"/>
